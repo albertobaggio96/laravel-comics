@@ -17,6 +17,15 @@ header{
 
 main{
   background-color: #1c1c1c;
+
+  #jumbotron{
+    img{
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      object-position: top;
+    }
+  }
   #serie-cards{
     img{
       width: 190px;
