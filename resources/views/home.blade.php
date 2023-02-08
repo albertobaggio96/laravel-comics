@@ -1,5 +1,19 @@
 @extends("layouts.app")
 
 @section("main")
-  <h1>cal_info</h1>
+  <main>
+    <div class="container">
+      <section id="serie-cards" class="row">
+        @foreach ($dcData as $element)
+        <div class="col-2">
+          <img src="{{$element['thumb']}}" alt=" {{$element['title']}}" class="img-fluid">
+          <div>
+            {{$element["title"]}}
+          </div>
+          
+        </div>
+        @endforeach
+      </section>
+    </div>
+  </main>
 @endsection
