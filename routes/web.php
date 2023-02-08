@@ -17,3 +17,8 @@ Route::get('/', function () {
     $dcData = config("comics");
     return view('home', compact("dcData") );
 });
+
+Route::get('/action-movie', function () {
+    $dcData = config("comics");
+    return view('info', compact("dcData") );
+})->name("info-card");

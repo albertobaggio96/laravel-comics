@@ -19,7 +19,6 @@ header{
 
 
 main{
-  background-color: #1c1c1c;
 
   #jumbotron{
     img{
@@ -30,9 +29,10 @@ main{
     }
   }
   #serie-cards{
+    background-color: #1c1c1c;
     img{
-      width: 190px;
-      height: 190px;
+      width: 150px;
+      height: 150px;
       object-fit: cover;
       object-position: top;
     }
