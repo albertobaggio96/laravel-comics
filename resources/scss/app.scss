@@ -1,4 +1,7 @@
 @import '~bootstrap/scss/bootstrap';
+$DC-color: #0282f9;
+$content-color : #1c1c1c;
+$footer-color:#303030;
 
 header{
   img{
@@ -32,6 +35,41 @@ main{
       height: 190px;
       object-fit: cover;
       object-position: top;
+    }
+  }
+}
+
+footer{
+  background-color: $footer-color;
+
+  #footer-links{
+    background-image: url("../assets/images/footer-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    .container{
+      height: 330px;     
+    
+      div{
+        width: 165px;
+    
+        li{
+          font-size: small;
+
+        }
+      }
+    }
+
+    
+  }
+
+  #footer-bottom{
+    button {
+      border-color: $DC-color;
+      background-color: $footer-color;
+    }
+    div{
+      font-weight: bolder;
+      color: $DC-color
     }
   }
 }
