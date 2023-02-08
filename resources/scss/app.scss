@@ -1,1 +1,32 @@
-@import '~bootstrap/scss/bootstrap'
+@import '~bootstrap/scss/bootstrap';
+
+header{
+  img{
+    width: 80px;
+  }
+  
+  ul{
+    font-weight: 600;
+    li{
+      line-height: 112px;
+      font-size: small;
+    }
+  }
+}
+
+
+main{
+  background-color: #1c1c1c;
+  #serie-cards{
+    img{
+      width: 190px;
+      height: 190px;
+      object-fit: cover;
+      object-position: top;
+    }
+  }
+}
+
+.container{
+  padding: 0 150px;
+}
